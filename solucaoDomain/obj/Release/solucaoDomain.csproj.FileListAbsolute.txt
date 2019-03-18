@@ -1,0 +1,6 @@
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoDomain\bin\Release\solucaoDomain.dll
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoDomain\bin\Release\solucaoDomain.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoDomain\obj\Release\solucaoDomain.csprojAssemblyReference.cache
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoDomain\obj\Release\solucaoDomain.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoDomain\obj\Release\solucaoDomain.dll
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoDomain\obj\Release\solucaoDomain.pdb

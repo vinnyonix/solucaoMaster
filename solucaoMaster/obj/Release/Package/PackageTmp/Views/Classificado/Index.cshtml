@@ -1,0 +1,120 @@
+﻿@model IEnumerable<solucaoDomain.Entities.Classificado>
+
+@{
+                /**/
+
+                ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="row">
+    <p>
+        @Html.ActionLink("Criar Novo", "Criar")
+    </p>
+    <p>
+        <input type="button" id="btnFinalizar" name="btnFinalizar" value="Finalizar" />
+    </p>
+</div>
+
+
+<form>
+    <table class="table">
+        <tr>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Data de Cadastro</th>
+            <th>Preço</th>
+            <th>Status</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Titulo</td>
+                <td>@item.Descricao</td>
+                <td>@item.DataCadastro</td>
+                <td>@item.Preco</td>
+                <td>
+                    @*@if (@item.Status)
+                    {
+                        <input class="chkTela" type="checkbox" value="@item.IDClassificado" checked="checked" />
+                    }
+                    else
+                    {
+                        <input class="chkTela" type="checkbox" value="@item.IDClassificado" />
+                    }*@
+
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new { id = item.IDClassificado }) |
+                    @Html.ActionLink("Detalhes", "Detalhes", new { id = item.IDClassificado }) |
+                    @Html.ActionLink("Deletar", "Deletar", new { id = item.IDClassificado })
+                </td>
+            </tr>
+        }
+
+    </table>
+</form>
+<script>
+
+    //function ObterLista() {
+
+    //    let lista = [];
+
+    //    $('.chkTela').each(function () {
+
+    //        let valordoid = $(this).prop('value');
+    //        let valordochk = $(this).prop('checked');
+
+    //        let item = {
+    //            id: 0,
+    //            valor: false
+    //        };
+
+    //        item.id = valordoid;
+    //        item.valor = valordochk;
+
+    //        lista.push(item);
+
+
+    //    });
+
+    //    $.ajax({
+    //        type: 'POST',
+    //        url: '/Classificado/ObterLista',
+    //        data: { json: JSON.stringify(lista) },
+    //        dataType: 'text',
+    //        success: function (data) {
+    //            //alert(data.mensagem);
+    //        },
+    //        error: function () {
+    //            //alert("Erro na tentativa de emissão!");
+    //        }
+    //    });
+
+    //}
+    /*
+
+    //------ lib.js ------
+var sqrt = Math.sqrt;
+function square(x) {
+    return x * x;
+}
+function diag(x, y) {
+    return sqrt(square(x) + square(y));
+}
+module.exports = {
+    sqrt: sqrt,
+    square: square,
+    diag: diag,
+};
+
+//------ main1.js ------
+var square = require('lib').square;
+var diag = require('lib').diag;
+
+console.log(square(11)); // 121
+console.log(diag(4, 3)); // 5
+
+    */
+
+</script>

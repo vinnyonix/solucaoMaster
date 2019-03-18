@@ -1,0 +1,16 @@
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\solucaoData.dll.config
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\solucaoData.dll
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\solucaoData.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\EntityFramework.dll
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\solucaoDomain.dll
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\solucaoDomain.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\EntityFramework.xml
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\obj\Debug\solucaoData.csprojAssemblyReference.cache
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\obj\Debug\solucaoData.Migrations.teste.resources
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\obj\Debug\solucaoData.csproj.GenerateResource.cache
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\obj\Debug\solucaoData.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\obj\Debug\solucaoData.csproj.CopyComplete
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\obj\Debug\solucaoData.dll
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\solucaoMaster\solucaoData\obj\Debug\solucaoData.pdb
