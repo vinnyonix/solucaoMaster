@@ -1,18 +1,14 @@
 ﻿using solucaoData.EntityConfig;
 using solucaoDomain.Entities;
 using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace solucaoData.Context
 {
-   
-        public class Contexto : DbContext
+
+    public class Contexto : DbContext
         {
             public Contexto()
                 : base("solucaoMaster")
@@ -22,7 +18,6 @@ namespace solucaoData.Context
 
         public DbSet<Classificado> Classificados { get; set; }
         public DbSet<Empreendimento> Empreendimentos { get; set; }
-        //public DbSet<Classificado> ChkTela { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
             {
