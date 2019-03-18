@@ -54,10 +54,6 @@
     <Compile Include="Context\Contexto.cs" />
     <Compile Include="EntityConfig\ClassificadoConfig.cs" />
     <Compile Include="Interfaces\DAO\IRepositoryDAOClassificado.cs" />
-    <Compile Include="Migrations\201812231339441_teste.cs" />
-    <Compile Include="Migrations\201812231339441_teste.Designer.cs">
-      <DependentUpon>201812231339441_teste.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Interfaces\DAO\Generic\IRepositoryDAOGeneric.cs" />
@@ -77,11 +73,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812231339441_teste.resx">
-      <DependentUpon>201812231339441_teste.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

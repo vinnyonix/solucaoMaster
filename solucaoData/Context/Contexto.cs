@@ -22,7 +22,6 @@ namespace solucaoData.Context
 
         public DbSet<Classificado> Classificados { get; set; }
         public DbSet<Empreendimento> Empreendimentos { get; set; }
-        //public DbSet<Classificado> ChkTela { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
             {

@@ -62,7 +62,6 @@
     <Compile Include="Entities\Servico.cs" />
     <Compile Include="Entities\Utilities\Turno.cs" />
     <Compile Include="Entities\Utilities\Cargo.cs" />
-    <Compile Include="Entities\Utilities\ChkTela.cs" />
     <Compile Include="Entities\Utilities\EstadoCivil.cs" />
     <Compile Include="Entities\Utilities\PerguntasFrequentes.cs" />
     <Compile Include="Entities\Utilities\Setor.cs" />
