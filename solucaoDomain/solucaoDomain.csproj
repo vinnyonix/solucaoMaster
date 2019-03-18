@@ -54,6 +54,7 @@
     <Compile Include="Entities\Funcionario.cs" />
     <Compile Include="Entities\FuncionarioContrato.cs" />
     <Compile Include="Entities\Informativo.cs" />
+    <Compile Include="Entities\Login.cs" />
     <Compile Include="Entities\Morador.cs" />
     <Compile Include="Entities\Multa.cs" />
     <Compile Include="Entities\OcorrenciaPortaria.cs" />
